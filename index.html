@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Elegance Salon</title>
+</head>
+<body>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(240, 234, 234);
+    }
+    header {
+        background-color:#8dc63f ;
+        text-align: center;
+        font-style: italic;
+        padding: 15px;
+    }
+    nav {
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+    }
+    nav a {
+        padding: 5px 20px;
+        margin: 20px;
+        color: #ce1638;
+        text-decoration: none;
+        font-size: large;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color:#8dc63f;
+        color: white;
+    }
+    section {
+        text-align: center;
+        padding: 50px;
+    }
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        color: #8dc63f;
+    }
+    p {
+        font-size: 20px;
+        color: rgb(93, 90, 90);
+    }
+    .cta-button {
+        font-size: 22px;
+        color: white;
+        padding: 10px;
+        background-color:#8dc63f;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .cta-button:hover {
+        color: #ce1638;
+    }
+    .service_container {
+        display: flex;
+        margin-top: 50px;
+    }
+    .service-card {
+        background-color: white;
+        padding: 5px 10px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+        border-radius: 10px;
+        box-shadow: rgb(206, 201, 201);
+    }
+    .service-icon {
+        font-size: 4em;
+    }
+    .service-card:hover {
+        transform:scale(1.1);
+    }
+    .contact_section{
+        background-color: white;
+    }
+</style>
+    <header>
+        <h1 style="color: white;">Vintage Elegance Salon</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#service">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h1>Welcome to Vintage Elegance Salon</h1>
+        <p>Experience the blend of vintage charm and modern elegance at our unisex salon.</p>
+        <p>We offer personalized services to bring out your unique style and beauty.</p><br>
+        <a href="#service" class="cta-button">Explore Our Services</a><br>
+    </section>
+
+    <section id="service">
+        <h1>Our Services</h1>
+        <div class="service_container">
+            <div class="service-card">
+                <div class="service-icon">&#128135;</div>
+                <h2>Haircut</h2>
+                <p>Get a stylish haircut that suits your personality and enhances your overall look.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">&#128134;</div>
+                <h2>Massage</h2>
+                <p>Relax and rejuvenate with our soothing massage services, designed to melt away stress.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">&#128133;</div>
+                <h2>Nail Art</h2>
+                <p>Experience our beautiful nail art to enhance your beauty to achieve a radient glow</p>
+            </div>
+        </div>
+    </section>
+<br><br><br><br>
+    <section id="contact" class="contact_section">
+        <h1>Contact Us</h1>
+        <p>For appointments and inquiries, feel free to reach out to us:</p>
+        <p>Email: info@vintageelegancesalon.com</p>
+        <p>Address: 123 Vintage Street, Cityville, India</p>
+    </section>
+</body>
+</html>
